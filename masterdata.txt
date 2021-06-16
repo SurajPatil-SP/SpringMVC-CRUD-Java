@@ -1,0 +1,83 @@
+ {
+        "customerId": 2,
+        "customerName": "Ram",
+        "customerMobileNo": "8787878",
+        "customerLoanAmount": 100000,
+        "customerAge": 35,
+        "customerdDateOfBirth": "10/05/1986",
+        "customerEmail": "ram@gmail.com",
+        "customerPancardNo": "PAN1234",
+        "address": {
+            "addressId": 2,
+            "loaclHouseNo": "A-11",
+            "localArea": "Karve Nagar",
+            "localLandmark": "Near CJC",
+            "localCity": {
+                "cityId": 2,
+                "cityname": "Pune",
+                "citypincode": 440011,
+                "state": {
+                    "stateId": 2,
+                    "stateName": "Maharashtra"
+                }
+            },
+            "permanantHouseNo": "B-11",
+            "permanantArea": "Wakad",
+            "permanantLandmark": "Near CJC",
+            "permanantcity": {
+                "cityId": 3,
+                "cityname": "Pune",
+                "citypincode": 440011,
+                "state": {
+                    "stateId": 3,
+                    "stateName": "Maharashtra"
+                }
+            },
+            "country": {
+                "countryId": 3,
+                "countryName": "India"
+            }
+        },
+        "vehical": {
+            "vehicalId": 2,
+            "modelNo": "RE122155",
+            "dealer": "Tembhare Automobile",
+            "price": "80000",
+            "onRoadPrice": "50000"
+        },
+        "bank": {
+            "bankId": 2,
+            "bankName": "Ghena Bank",
+            "accountNumber": 253535353,
+            "accountHolderName": "Ankit Patil",
+            "bankIfsc": "GHE1233",
+            "bankMicr": "67567",
+            "bankAddress": "Pune"
+        },
+        "guaranter": {
+            "guaranterId": 2,
+            "guaranterNmae": "Sham",
+            "guaranterAddress": "Pune",
+            "guaranterRelationWithcustomer": "Cousins",
+            "guranterMobileNo": 7867867,
+            "addharCardNo": 6768766,
+            "jobdetails": "Developer"
+        },
+        "loandetails": {
+            "previousloanId": 2,
+            "previousLoanamount": 50000.0,
+            "previousLoanStatus": "paid",
+            "tenure": 2,
+            "paidAmount": 50000,
+            "reaminingAmount": 0,
+            "bank": {
+                "bankId": 3,
+                "bankName": "Dena Bank",
+                "accountNumber": 253535353,
+                "accountHolderName": "Ankit Patil",
+                "bankIfsc": "DENA1233",
+                "bankMicr": "67567",
+                "bankAddress": "Pune"
+            }
+        }
+    }
